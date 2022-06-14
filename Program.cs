@@ -1,12 +1,9 @@
-﻿Console.WriteLine("Welcome to Welcome to Line Comparison Computation Program on Master Branch");
+﻿using Q_2;
+Console.WriteLine("Welcome to Welcome to Line Comparison Computation Program on Master Branch");
 
-Console.WriteLine("Enter x1");
-double x1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Enter y1");
-double y1 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Enter x2");
-double x2 = Convert.ToDouble(Console.ReadLine());
-Console.WriteLine("Enter y2");
-double y2 = Convert.ToDouble(Console.ReadLine());
-double length = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
-Console.WriteLine("length of this line is "+length);
+double l1 = Class1.leng();
+double l2 = Class1.leng();
+if (l1 == l2)
+    Console.WriteLine("Equal Lines");
+else
+    Console.WriteLine("Not Equal Lines");
